@@ -27,8 +27,7 @@ int main() {
     pwm_set_enabled(slice_num, true);
     pwm_set_enabled(led_slice_num, true);
 
-    // para a movimentação brusca acontecer só 1 vez
-    // Movimentação brusca em intervalors de 5 segundos entre 0° e 180°
+    // Movimentação brusca em intervalors de 5 segundos entre 0° e 180° (acontece só 1 vez)
     pwm_set_chan_level(slice_num, channel, 2400); // 180 graus
     pwm_set_chan_level(led_slice_num, led_channel, 2400);    // LED aceso com brilho máximo
     sleep_ms(5000);
@@ -37,7 +36,7 @@ int main() {
     pwm_set_chan_level(led_slice_num, led_channel, 1470);    // LED com brilho moderado
     sleep_ms(5000);
 
-    pwm_set_chan_level(slice_num, channel, 500);  // 0 graus 500
+    pwm_set_chan_level(slice_num, channel, 500);  // 0 graus
     pwm_set_chan_level(led_slice_num, led_channel, 500);     // LED com brilho bem fraco
     sleep_ms(5000);
 
