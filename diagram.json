@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "author": "Anibal Maldonado",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 46, "left": 144, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 143.2,
+      "left": -113.8,
+      "rotate": 270,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 157.55,
+      "left": -76.8,
+      "attrs": { "value": "330" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "servo1:GND", "pico:GND.8", "black", [ "h-19.2", "v-63.95" ] ],
+    [ "servo1:V+", "pico:3V3", "red", [ "v0.1", "h-48", "v-54.35" ] ],
+    [ "servo1:PWM", "pico:GP22", "orange", [ "h-9.6", "v0.2", "h-48", "v-6.35" ] ],
+    [ "led1:C", "pico:GND.4", "black", [ "h76.8", "v-0.4", "h34.85" ] ],
+    [ "led1:A", "r1:1", "blue", [ "h0" ] ],
+    [ "r1:2", "pico:GP12", "blue", [ "h18", "v3.21" ] ]
+  ],
+  "dependencies": {}
+}
