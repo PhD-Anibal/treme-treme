@@ -3,6 +3,15 @@ Raspberry Pi Pico W e PWM
 Este projeto implementa o controle de um servomotor usando o Raspberry Pi Pico W e PWM, simulando no Wokwi.
 Tambem controla a intensidade da luminosidade de um LED
 
+🎥 Demonstração
+
+Confira a execução do código no vídeo abaixo:
+🔗 Link para o vídeo
+
+## Resultados no uso do Led:
+
+O LED no ambiente Wokwi não apresentou modificação na intensidade. No entanto, na placa BitDogLab, é possível notar que, na frequência de 50 Hz, não é possível perceber que o LED está piscando 50 vezes por segundo. Inicialmente, o brilho do LED muda em três escalas, que não são tão nítidas: muito fraco (durante 5 segundos), menos fraco (durante 5 segundos) e não tão fraco (durante 5 segundos). Após esses 15 segundos, não há mais escalas de 5 segundos. Em loop, o brilho diminui e aumenta suavemente, sem parar.
+
 ## 📌 Requisitos
 - *Hardware*: Simulado no Wokwi
 - *Software*:
@@ -50,10 +59,6 @@ O código está no arquivo main.c e utiliza PWM na GPIO 22 para controlar o âng
 │   ├── diagram.json
 ├── README.md
 
-🎥 Demonstração
-
-Confira a execução do código no vídeo abaixo:
-🔗 Link para o vídeo
 
 📌 Como Rodar no Wokwi
 
