@@ -1,4 +1,4 @@
-Raspberry Pi Pico W e PWM
+## Raspberry Pi Pico W e PWM
 
 Este projeto implementa o controle de um servomotor usando o Raspberry Pi Pico W e PWM, simulando no Wokwi.
 Tambem controla a intensidade da luminosidade de um LED
