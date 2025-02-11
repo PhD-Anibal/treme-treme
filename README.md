@@ -6,7 +6,8 @@ Tambem controla a intensidade da luminosidade de um LED
 🎥 Demonstração
 
 Confira a execução do código no vídeo abaixo:
-🔗 Link para o vídeo
+
+🔗 Link de Youtube: [https://youtu.be/qLXn5bQeLOw](https://youtu.be/qLXn5bQeLOw)
 
 ## Resultados no uso do Led:
 
