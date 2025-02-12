@@ -56,20 +56,16 @@ O código está no arquivo main.c e utiliza PWM na GPIO 22 para controlar o âng
 
 
 📂 Estrutura do Projeto
-
-├
+```
+/
+│
 │── TremeTreme.c
-
 │── CMakeLists.txt
-
 ├── wokwi
-
 │── diagram.json
-
 │── pico_sdk_import.cmake
-
 ├── README.md
-
+```
 ## Contribuição
 
 Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
