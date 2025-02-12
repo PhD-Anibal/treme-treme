@@ -25,7 +25,7 @@ O LED no ambiente Wokwi não apresentou modificação na intensidade. No entanto
 1. Instale o *Pico SDK* e configure no VS Code.
 2. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/PhD-Anibal/treme-treme.git
    
 
 3. Compile o código, no SDK do VS code aperte em compilar segundo imagem:
