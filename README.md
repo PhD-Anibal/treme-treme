@@ -26,11 +26,15 @@ O LED no ambiente Wokwi não apresentou modificação na intensidade. No entanto
 2. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   
 
-3. Compile e carregue o código no Wokwi.
+3. Compile o código, no SDK do VS code aperte em compilar segundo imagem:
+   
+   ![compilacao](TP_compilar.jpg)
 
+4. Envie para a placa BitDogLab utilizando o ambiente de desenvolvimento adequado para ver a mudança de intensidade do LED RGB azul.
 
+5. Rode no wokwi integrado ao vscode abrindo o arquivo diagram.json e apertando no botão Run da extensão do Wokwi.
 
 📜 Código-Fonte
 
