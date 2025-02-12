@@ -57,20 +57,15 @@ O código está no arquivo main.c e utiliza PWM na GPIO 22 para controlar o âng
 
 📂 Estrutura do Projeto
 
-├── src/
-│   ├── main.c
-│   ├── CMakeLists.txt
+├
+│── TremeTreme.c
+│── CMakeLists.txt
 ├── wokwi/
-│   ├── diagram.json
+│── diagram.json
+│── pico_sdk_import.cmake
 ├── README.md
 
+## Contribuição
 
-📌 Como Rodar no Wokwi
+Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
 
-1. Abra o Wokwi.
-
-
-2. Importe o arquivo diagram.json.
-
-
-3. Carregue e rode o código.
