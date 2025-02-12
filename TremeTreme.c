@@ -5,7 +5,7 @@
 #define LED_PIN 12        // Definir o pino do LED RGB Azul
 #define SERVO_PIN 22      // Define oa conexão com PWM do servo motor
 #define PWM_FREQ 50       // 50Hz -> período de 20ms
-#define PWM_WRAP 20000    // Tempo total em µs (20ms)
+#define PWM_WRAP 39061    // // (125.000.000Hz / (64 * 50Hz)) - 1 = 39061 (com clkdiv = 64)
 
 int main() {
     stdio_init_all();
