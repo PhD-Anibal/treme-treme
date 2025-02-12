@@ -59,10 +59,15 @@ O código está no arquivo main.c e utiliza PWM na GPIO 22 para controlar o âng
 
 ├
 │── TremeTreme.c
+
 │── CMakeLists.txt
-├── wokwi/
+
+├── wokwi
+
 │── diagram.json
+
 │── pico_sdk_import.cmake
+
 ├── README.md
 
 ## Contribuição
